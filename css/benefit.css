@@ -1,0 +1,26 @@
+/* BENEFIT */
+    .benefit{
+        background-color: var(--third-color);
+    }
+
+    .benefit .col {
+        background-color: white;
+        width: 100%;
+        margin: .625rem;
+    }
+    
+    .benefit h2{
+        text-align: center;
+    }
+    @media screen and (min-width:768px) {
+        .benefit .col{
+            width: calc(50% - 1.25rem);
+        }
+    }
+    
+    @media screen and (min-width:992px) {
+        .benefit .col{
+            width: calc(100% / 3 - 1.25rem);
+        }
+    }
+/* /BENEFIT */

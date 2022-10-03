@@ -1,0 +1,13 @@
+/* FOOTER */
+footer {
+    background-color: #333333;
+    color: white;
+}
+footer p{
+    padding: 4.0625rem;
+}
+
+footer a{
+    text-decoration: underline;
+    color: var(--third-color);
+}
