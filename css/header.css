@@ -1,0 +1,33 @@
+/* HEADER */
+header{
+    background-color: var(--first-color);
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem;
+}
+
+.header-nav{
+    display: none;
+}
+
+.ul-nav{
+    display: flex;
+    list-style: none;
+}
+
+.li-nav{
+    padding: 0 .9375rem;
+}
+
+@media screen and (min-width: 1023px) {
+    .burger-menu{
+        display: none;
+    }
+
+    .header-nav{
+        display: flex;
+    }
+}
