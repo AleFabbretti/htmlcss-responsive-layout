@@ -3,3 +3,19 @@
     max-width: 71.25rem;
     margin: auto;
 }
+
+section{
+    padding: 5rem 0;
+}
+
+.col {
+    padding-left: .625rem;
+    padding-right: .625rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.625rem;
+    margin-right: -0.625rem;
+}
