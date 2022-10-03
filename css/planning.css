@@ -1,0 +1,9 @@
+/* PLANNING */
+.planning{
+    background-color: var(--third-color);
+}
+
+.planning .col{
+    width: 100%;
+    margin: .625rem;
+}

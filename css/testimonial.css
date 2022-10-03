@@ -1,0 +1,14 @@
+/* TESTIMONIAL */
+.testimonial .card-debug{
+    background-color: var(--third-color);
+    height: 6.25rem;
+    color: white;
+}
+
+.testimonial .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+.experience{
+    text-align: center;
+}
