@@ -7,3 +7,17 @@
     width: 100%;
     text-align: center;
 }
+
+@media screen and (min-width:768px) {
+    .pre-footer{
+        max-width: 34.75rem;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .pre-footer{
+        max-width: 35rem;
+        margin: auto;
+    }
+}
