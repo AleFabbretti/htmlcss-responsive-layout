@@ -1,12 +1,14 @@
 /* HEADER */
 header{
     background-color: var(--first-color);
+    position: sticky;
+    top: 0;
 }
 
 .header-row{
     display: flex;
     justify-content: space-between;
-    padding: 1.25rem 1.25rem;
+    padding: 1.25rem 0;
 }
 
 .header-nav{
