@@ -3,6 +3,7 @@ header{
     background-color: var(--first-color);
     position: sticky;
     top: 0;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
 }
 
 .header-row{
@@ -24,6 +25,28 @@ header{
     padding: 0 .9375rem;
 }
 
+header a{
+    color: white;
+}
+
+.burger-menu{
+    background-color: var(--first-color);
+    color: white;
+    border-style: none;
+    font-size: x-large;
+}
+header .logo{
+    font-size: 3.125rem;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+header .btn {
+    background-color: white;
+    border: 1px solid white;
+}
 @media screen and (min-width: 1023px) {
     .burger-menu{
         display: none;
@@ -31,5 +54,13 @@ header{
 
     .header-nav{
         display: flex;
+    }
+
+    header .logo{
+        font-size: 1.875rem;
+    }
+
+    .header-nav .ul-nav{
+        align-items: center;
     }
 }
