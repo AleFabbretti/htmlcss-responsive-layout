@@ -1,17 +1,79 @@
-.card-debug{
+.highlights .card{
     background-color: var(--secondary-color);
-    height: 100px;
 }
 .highlights .col{
     width: 100%;
     margin: .625rem 0;
 }
 
+.highlights .flex{
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.highlights img{
+    max-width: 12.5rem;
+    margin: auto;
+    margin-bottom: -1.25rem;
+}
+
+.highlights h4 {
+    color: var(--first-color);
+    padding: .625rem 0;
+    font-size: 1.25rem;
+}
+
+.highlights p{
+    color: #5a6e7f;
+    font-weight: bold;
+    padding: 1.25rem 0;
+    line-height: 1.7rem;
+}
+
+.highlights .fa-solid {
+    font-size: 5rem;
+    color: var(--first-color);
+    margin: 1.25rem 0;
+}
+
+.highlights .btn {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+    color: white;
+    margin: 1.25rem 0;
+    width: 13.125rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
 @media screen and (min-width: 768px) {
     .highlights .col{
         width: calc(100% / 3);
     }
     .highlights .col:first-child{
         width: calc((100% /3)*2);
+    }
+    .highlights .height-col{
+        padding-bottom: 0;
+    }
+    .highlights img{
+        margin-left: calc(2.5rem - 1.25rem);
+    }
+    .highlights .btn{
+        width: 12.70rem;
+    }
+}
+@media screen and (min-width:992px) {
+    .highlights .flex{
+        flex-wrap: nowrap;
+    }
+    .highlights-description {
+        width: 50%;
+    }
+    .highlights img {
+        margin-left: auto;
+        margin-bottom: 0;
+    }    
+    .height-col {
+        height: 21.375rem;
     }
 }
