@@ -6,21 +6,49 @@
     .benefit .col {
         background-color: white;
         width: 100%;
-        margin: .625rem;
+        margin: 1.625rem;
+        border-radius: 1.25rem;
     }
-    
-    .benefit h2{
-        text-align: center;
+
+    .benefit .center{
+        color: white;
+    }
+
+    .benefit .card{
+        background-color: white;
+        margin-bottom: 1.25rem;
+    }
+
+    .benefit .card > h2,h3{
+        color: var(--third-color);
+        padding: .625rem 0;
+    }
+
+    .benefit .card h2{
+        font-size: 3.125rem;
+    }
+
+    .benefit p{
+        padding-top: .625rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .benefit .btn{
+        background-color: var(--third-color);
+        color: white;
+        padding: .5rem 2.5rem;
     }
     @media screen and (min-width:768px) {
         .benefit .col{
-            width: calc(50% - 1.25rem);
+            width: 40%; 
         }
     }
     
     @media screen and (min-width:992px) {
         .benefit .col{
             width: calc(100% / 3 - 1.25rem);
+            margin-left: .625rem;
+            margin-right: .625rem;
         }
     }
 /* /BENEFIT */

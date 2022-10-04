@@ -27,7 +27,7 @@
 }
 
 .testimonial .col{
-    margin: .625rem 0;
+    margin: 1.25rem 0;
 }
 .testimonial h2{
     margin-bottom: 1.25rem;
@@ -56,5 +56,6 @@
 
     .experience h4{
         text-align: left;
+        padding-left: .625rem;
     }
 }
