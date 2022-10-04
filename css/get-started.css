@@ -1,23 +1,38 @@
 /* GET STARTED */
 .started{
     background-color: var(--third-color);
+    color: white;
 }
 
 .pre-footer{
     width: 100%;
-    text-align: center;
 }
 
+.started h4{
+    color: #fdc15f;
+    font-size: 3.4375rem;
+}
+
+.started .btn{
+    color: var(--third-color);
+    padding: 1.25rem 4.375rem;
+    margin: 1.875rem 0;
+}
+
+.started .copyright {
+    color: white;
+    font-size: .875rem;
+}
 @media screen and (min-width:768px) {
-    .pre-footer{
-        max-width: 34.75rem;
-        margin: auto;
+    .started p{
+        padding-left: 9.375rem;
+        padding-right: 9.375rem;
     }
 }
 
 @media screen and (min-width:992px) {
-    .pre-footer{
-        max-width: 35rem;
-        margin: auto;
+    .started p{
+        padding-left: 18.75rem;
+        padding-right: 18.75rem;
     }
 }

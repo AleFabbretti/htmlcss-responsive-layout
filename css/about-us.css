@@ -21,7 +21,7 @@
     color: var(--third-color);
     font-size: 3.4375rem;
 }
-.description{
+.about-us .description{
     color: var(--third-color);
     font-weight: bold;
     font-size: 2rem;
