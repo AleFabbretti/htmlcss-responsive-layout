@@ -3,13 +3,6 @@
         background-color: var(--third-color);
     }
 
-    .benefit .col {
-        background-color: white;
-        width: 100%;
-        margin: 1.625rem;
-        border-radius: 1.25rem;
-    }
-
     .benefit .center{
         color: white;
     }
@@ -40,7 +33,7 @@
     }
     @media screen and (min-width:768px) {
         .benefit .col{
-            width: 40%; 
+            width: 50%; 
         }
     }
     
