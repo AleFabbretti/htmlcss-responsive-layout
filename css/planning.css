@@ -4,6 +4,38 @@
 }
 
 .planning .col{
-    width: 100%;
+    color: white;
     margin: .625rem;
+    text-align: left;
+}
+
+.planning .card{
+    background-color: white;
+    color: black;
+}
+
+.planning img{
+    width: 100%;
+}
+
+.planning .btn{
+    background-color: var(--third-color);
+    margin-top: 2.1875rem;
+}
+
+@media screen and (min-width:992px) {
+    .planning .row{
+        width: 80%;
+        margin: auto;
+        flex-wrap: nowrap;
+    }
+    .planning .col{
+        width: 40%;
+    }
+    .planning .planning2{
+        width: 60%;
+    }
+    .planning p{
+        font-size: .875rem;
+    }
 }

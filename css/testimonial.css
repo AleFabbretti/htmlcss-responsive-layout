@@ -1,8 +1,8 @@
 /* TESTIMONIAL */
-.testimonial .card-debug{
+.testimonial .card{
     background-color: var(--third-color);
-    height: 6.25rem;
     color: white;
+    border-radius: 2.5rem;
 }
 
 .testimonial .col{
@@ -11,4 +11,50 @@
 }
 .experience{
     text-align: center;
+}
+
+.testimonial img{
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 1.25rem auto;
+}
+
+.test{
+    margin: auto;
+}
+
+.testimonial .col{
+    margin: .625rem 0;
+}
+.testimonial h2{
+    margin-bottom: 1.25rem;
+    color: var(--third-color);
+    font-size: 1.875rem;
+}
+.testimonial h4{
+    padding: 1.25rem 0;
+}
+
+.experience .rotate{
+    transform: rotate(180deg);
+}
+.testimonial p:first-of-type{
+    padding-bottom: 1.25rem;
+}
+@media screen and (min-width:768px) {
+    .testimonial .row{
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .testimonial .experience{
+        width: calc(100% - 220px);
+        padding-left: 1.25rem;
+    }
+
+    .experience h4{
+        text-align: left;
+    }
 }
