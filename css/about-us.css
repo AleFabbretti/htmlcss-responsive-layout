@@ -1,23 +1,59 @@
 /* ABOUT-US */
 .about-us .col{
-    width: 100%;
     margin: .625rem 0;
 }
-
-@media screen and (min-width:768px) {
-    .about-us .col-big{
-        width: 55%;
-    }
-    .about-us .col-small{
-        width: 45%;
-    }
+.about-us h2 {
+    color: var(--third-color);
+    font-size: 2.125rem;
 }
-
-@media screen and (min-width:992px) {
+.about-us img{
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: .9375rem;
+}
+.about-us .fa-solid {
+    position: relative;
+    bottom: 9.5rem;
+    right: 3.5rem;
+    color: var(--third-color);
+    font-size: 3.4375rem;
+}
+.description{
+    color: var(--third-color);
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 1.25rem;
+}
+.about-us .btn {
+    background-color: var(--third-color);
+    color: white;   
+}
+.about-us p {
+    line-height: 2rem;
+    margin-top: 1.25rem;
+}
+@media screen and (min-width:768px) {
     .about-us .col-big{
         width: calc((100% / 3)*2);
     }
     .about-us .col-small{
         width: calc(100% / 3);
+    }
+    .about-us .fa-solid{
+        bottom: 12.5rem;
+        right: -9.5rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .about-us .fa-solid {
+        bottom: 9.5rem;
+        left: -3.5rem;
+    }
+    .col-small{
+        margin-left: 1.25rem;
     }
 }
